@@ -17,22 +17,24 @@ and open the template in the editor.
             <h1> Contactanos </h1>
               </div>
             <form>
-                 <div>
+                 <div id="label">
                     <label for="number" > Telefono:</label>
-                    <input type="number" id="number"/>
+                    <input type="text" id="number" />
                 </div>
+                <br>
                 <div>
                     <label for="nombre" > Nombre:</label>
                     <input type="text" id="nombre"/>
                 </div>
-                
+                <br>
                 <div>
-                    <label for="email" > E-mail:</label>
+                    <label for="email" > E-mail:   </label>
                     <input type="email" id="email"/>
                 </div>
-                
-                <div>
+                <br>
+             
                     <label for="asunto" > Que necesitas?:</label>
+                        
                     <select id="asunto" name="asunto"> 
                         <option value="" selected="selected">--Selecciona--</option>
                         <option value="comentar">Quiero hacer un comentario</option>
@@ -40,16 +42,19 @@ and open the template in the editor.
                         <option value="entrega">Pedir costos de entrega</option>
                         <option value="otro">Otro</option>
                     </select>
-                </div>
+               <br>
                
                 <div>
+                         <br>
                     <label for="msg">Mensaje</label>
-                    <textarea id="msg" cols="60" rows="10"></textarea>
+                         
+                    <textarea id="msg" cols="40" rows="10"></textarea>
                 </div>
                 <br>
                 <div class="" id="menu">
                     <br>
                     <button type="submit"> Enviar mensaje</button>
+                    <a href="index.html">pagina principal </a>
                 </div>    
             </form>
             
